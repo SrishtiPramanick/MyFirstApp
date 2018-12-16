@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.kiit.myfirstapp.NotificationActivity">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Simple Notification"
+        android:textSize="30dp"
+        android:background="#fc9055"
+        android:onClick="simpleNotification"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="big picture Notification"
+        android:textSize="30dp"
+        android:background="#52bf57"
+        android:onClick="bigNotification"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Inbox type Notification"
+        android:textSize="30dp"
+        android:background="#2f65ca"
+        android:onClick="inboxNotification"/>
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="BIG TEXT Notification"
+        android:textSize="30dp"
+        android:background="#b32fca"
+        android:onClick="bigtextNotification"/>
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="ACTION Notification"
+        android:textSize="30dp"
+        android:background="#ca2f7f"
+        android:onClick="actionNotification"/>
+</LinearLayout>
